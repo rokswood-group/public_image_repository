@@ -33,4 +33,4 @@ for path in argv:
         Image.open(file_path).convert('RGB').save(
             file_path.replace(image_format, 'jpg'), format='JPEG', optimized=True)
         print('[*] Optimized... {}'.format(file))
-        os.remove(file_path)
+        # os.remove(file_path)
